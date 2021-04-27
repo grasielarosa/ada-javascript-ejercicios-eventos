@@ -22,3 +22,23 @@
 // millas.addEventListener('change', calculo);
 // kilometros.addEventListener('change', calculo); 
 
+//ejercicio 3 - adivinanza
+
+// const boton1 = document.getElementById('correcto');
+// boton1.addEventListener('click', correcto)
+// function correcto(){
+//     boton1.style.background = 'green'
+//     const respuesta = document.getElementById('resultado')
+//     respuesta.innerText = `Correcto!`
+// }
+// const boton2 = document.getElementById('errado1');
+// boton2.addEventListener('click', errado)
+// const boton3 = document.getElementById('errado2');
+// boton3.addEventListener('click', errado)
+// function errado(){
+//     boton1.style.background = 'green'
+//     boton2.style.background = 'red'
+//     boton3.style.background = 'red'
+//     const respuesta = document.getElementById('resultado')
+//     respuesta.innerText = `Errado!`
+// }
