@@ -1,3 +1,4 @@
+//ejercicio 1 - playlist
 // const lista = document.querySelector('ul');
 // let items = "";
 // for(let i=0; i<5; i++) {
@@ -7,6 +8,8 @@
 // }
 // lista.innerHTML=items;
 
+
+// ejercicio 2 - convertir km/millas
 // let kilometros = document.getElementById('kilometros');
 // let millas = document.getElementById('millas');
 // const calculo = (event) => {
