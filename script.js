@@ -1,3 +1,4 @@
+
 //ejercicio 1 - playlist
 // const lista = document.querySelector('ul');
 // let items = "";
@@ -8,19 +9,26 @@
 // }
 // lista.innerHTML=items;
 
+//ejercício 2 - contador
+// const buttons = document.getElementsByClassName(`counter`);
+// const result = document.getElementById(`result`);
 
-// ejercicio 2 - convertir km/millas
-// let kilometros = document.getElementById('kilometros');
-// let millas = document.getElementById('millas');
-// const calculo = (event) => {
-//     if (event.target.name === 'kilometros') {
-//         millas.value = kilometros.value * 1.61;
-//     } else if (event.target.name === 'millas') {
-//         kilometros.value = millas.value * 0.62;
+// const operation = (event)=>{
+//     const button = event.target;
+//     const qty = button.getAttribute('data-qty');
+//     const op = button.getAttribute('data-op');
+
+//     if(op=='plus'){
+//         result.value = parseInt(result.value) + parseInt(qty);
+//     }
+//     else {
+//         result.value = parseInt(result.value) - parseInt(qty);
 //     }
 // }
-// millas.addEventListener('change', calculo);
-// kilometros.addEventListener('change', calculo); 
+// for(let i = 0; i<buttons.length; i++){
+//     buttons[i].addEventListener(`click`, operation);
+// }
+
 
 //ejercicio 3 - adivinanza
 

@@ -1,34 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
+        body {
             font: normal 14pt Arial;
             background-color: sandybrown;
             color: rgb(37, 17, 167);
         }
-        input{
+
+        input {
             width: 200px;
             height: 30px;
         }
     </style>
 </head>
+
 <body>
     <!-- ejercicio 1 -  -->
-   <!-- <h1> Playlist</h1>
+    <!-- <h1> Playlist</h1>
     <ul> 
     </ul>  -->
 
-    <!-- ejercicio 2 - convertir km/millas -->
-    <!-- <h1>Conversión km y millas</h1>
-    <label for="kilometros">Kilómetros</label>
-    <input type="text" id="kilometros" name="kilometros" value="kilometros">
-    <label for="millas">Millas</label>
-    <input type="text" id="millas" name="millas" value="millas"> -->
+    <!-- ejercicio 2 - contador -->
+
+    <h1>Contador</h1>
+    <input type="number" id="result" value="0">
+    <div>
+        <button type="button" class="counter" data-qty="1" data-op="less">-1</button>
+        <button type="button" class="counter" data-qty="1" data-op="plus">+1</button>
+        <button type="button" class="counter" data-qty="5" data-op="less">-5</button>
+        <button type="button" class="counter" data-qty="5" data-op="plus">+5</button>
+        <button type="button" class="counter" data-qty="10" data-op="less">-10</button>
+        <button type="button" class="counter" data-qty="10" data-op="plus">+10</button>
+    </div>
 
     <!-- ejercicio 3 - adivinanza -->
 
@@ -37,9 +46,9 @@
     <input type="button" value="dos" id="errado1">
     <input type="button" value="tres" id="errado2">
     <h2 id="resultado"></h2> -->
-    
-        
-    
-  <script src="/script.js"></script>  
+
+
+    <script src="/script.js"></script>
 </body>
+
 </html>
