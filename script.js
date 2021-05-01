@@ -50,3 +50,19 @@
 //     const respuesta = document.getElementById('resultado')
 //     respuesta.innerText = `Errado!`
 // }
+
+// ejercicio 4 - paleta
+
+// const buttons = document.getElementsByClassName(`color`);
+// const divColor = document.getElementById(`result`)
+// const changeColor = (event)=>{
+//     const button = event.target;
+//     const color = button.getAttribute(`data-color`);
+//     divColor.style.background=color;
+
+// }
+
+// for(i=0;i<buttons.length;i++){
+//     buttons[i].addEventListener(`click`, changeColor)
+// }
+
