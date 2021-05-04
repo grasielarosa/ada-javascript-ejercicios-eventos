@@ -1,4 +1,3 @@
-
 //ejercicio 1 - playlist
 // const lista = document.querySelector('ul');
 // let items = "";
@@ -66,3 +65,12 @@
 //     buttons[i].addEventListener(`click`, changeColor)
 // }
 
+// ejercicio 5 - email sin leer
+// const unread=document.getElementsByTagName('li')
+// const  changeWeight= (event)=>{
+//     const unread = event.target;
+//     unread.classList.remove('bold');
+// }
+// for(let i=0; i<unread.length; i++){
+//     unread[i].addEventListener('click', changeWeight)
+// }
