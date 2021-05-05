@@ -8,6 +8,8 @@
 // }
 // lista.innerHTML=items;
 
+//-----------------------------------------------------------
+
 //ejercício 2 - contador
 // const buttons = document.getElementsByClassName(`counter`);
 // const result = document.getElementById(`result`);
@@ -28,6 +30,7 @@
 //     buttons[i].addEventListener(`click`, operation);
 // }
 
+//-----------------------------------------------------------
 
 //ejercicio 3 - adivinanza
 
@@ -50,6 +53,8 @@
 //     respuesta.innerText = `Errado!`
 // }
 
+//-----------------------------------------------------------
+
 // ejercicio 4 - paleta
 
 // const buttons = document.getElementsByClassName(`color`);
@@ -65,6 +70,8 @@
 //     buttons[i].addEventListener(`click`, changeColor)
 // }
 
+//-----------------------------------------------------------
+
 // ejercicio 5 - email sin leer
 // const unread=document.getElementsByTagName('li')
 // const  changeWeight= (event)=>{
@@ -74,3 +81,35 @@
 // for(let i=0; i<unread.length; i++){
 //     unread[i].addEventListener('click', changeWeight)
 // }
+
+//-----------------------------------------------------------
+
+// ejercicio 6 - progreso
+// const progress = document.getElementById('progress');
+// const range = document.querySelector('h3');
+// progress.addEventListener('change', function(){
+//     range.innerHTML= `Su progreso es de ${this.value}%`
+// })
+// const buttons = document.getElementsByClassName('action');
+// const operation = (event)=>{
+//     const button = event.target;
+//     const op = button.getAttribute('data-op');
+
+//     if(op=='plus'){
+//         progress.value = parseInt(progress.value) + 10;
+//         range.innerHTML= `Su progreso es de ${progress.value}%`
+//     }
+//     else if (op=='less'){
+//         progress.value = parseInt(progress.value) - 10;
+//         range.innerHTML= `Su progreso es de ${progress.value}%`
+//     }
+// }
+// for(i=0; i<buttons.length; i++){
+//     buttons[i].addEventListener('click', operation);
+// }
+
+
+//-----------------------------------------------------------
+
+//Ejercicio 8
+
